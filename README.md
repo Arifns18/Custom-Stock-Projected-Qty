@@ -12,7 +12,7 @@ sudo supervisorctl restart all
 
 
 
-**For Update Custom App** <br />
+[**For Update Custom App**]
 
 /frappe-bench/apps/custom_report$ git pull
 
