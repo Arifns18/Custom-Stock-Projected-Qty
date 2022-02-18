@@ -11,6 +11,7 @@ bench --site [site.name] migrate
 sudo supervisorctl restart all
 
 
+
 **For Update Custom App**
 
 /frappe-bench/apps/custom_report$ git pull
@@ -20,6 +21,7 @@ sudo supervisorctl restart all
 /frappe-bench/apps/custom_report$ sudo supervisorctl restart all
   
   
+
 **For Uninstall Custom App**
 
 bench --site [sitename] uninstall-app [appname]
@@ -29,6 +31,8 @@ bench remove-app [appname]
 bench --site [site.name] migrate
 
 sudo supervisorctl restart all
+
+
 
 **For Install Custom App**
 
