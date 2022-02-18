@@ -1,6 +1,6 @@
 ## Custom Report
 
-##custom report
+## custom report
 
 bench get-app https://github.com/matiyas-develop/Custom-Stock-Projected-Qty
 
@@ -12,7 +12,7 @@ sudo supervisorctl restart all
 
 
 
-##**For Update Custom App**
+## **For Update Custom App**
 
 /frappe-bench/apps/custom_report$ git pull
 
@@ -22,7 +22,7 @@ sudo supervisorctl restart all
   
   
 
-#**For Uninstall Custom App**
+## **For Uninstall Custom App**
 
 bench --site [sitename] uninstall-app [appname]
 
