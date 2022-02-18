@@ -23,15 +23,21 @@ sudo supervisorctl restart all
 **For Uninstall Custom App**
 
 bench --site [sitename] uninstall-app [appname]
+
 bench remove-app [appname]
+
 bench --site [site.name] migrate
+
 sudo supervisorctl restart all
 
 **For Install Custom App**
 
 bench get-app https://github.com/matiyas-develop/Custom-Stock-Projected-Qty
+
 bench --site [site.name] install-app custom_report
+
 bench --site [site.name] migrate
+
 sudo supervisorctl restart all
 
 #### License
