@@ -11,8 +11,8 @@ bench --site [site.name] migrate
 sudo supervisorctl restart all
 
 
-<br />
-**For Update Custom App**
+
+**For Update Custom App** <br />
 
 /frappe-bench/apps/custom_report$ git pull
 
@@ -21,8 +21,8 @@ sudo supervisorctl restart all
 /frappe-bench/apps/custom_report$ sudo supervisorctl restart all
   
   
-<br />
-**For Uninstall Custom App**
+
+**For Uninstall Custom App** <br />
 
 bench --site [sitename] uninstall-app [appname]
 
@@ -33,8 +33,8 @@ bench --site [site.name] migrate
 sudo supervisorctl restart all
 
 
-<br />
-**For Install Custom App**
+**For Install Custom App** <br />
+
 
 bench get-app https://github.com/matiyas-develop/Custom-Stock-Projected-Qty
 
